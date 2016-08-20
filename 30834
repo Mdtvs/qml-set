@@ -1,0 +1,39 @@
+paramsetclear hosts
+paramsetclear SMTP_Main
+paramsetclear SMTP_RawData
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30834"
+paramset SMTP_Main auth none
+paramset SMTP_Main srcdomain ulan-ude.mecom.ru
+paramset SMTP_Main server csd.ulan-ude.mecom.ru
+paramset SMTP_Main primif eth1
+paramset SMTP_Main secif ""
+paramset SMTP_Main retries 5
+paramset SMTP_Main SMTPSender AMS30834@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_Main pipesize 3
+paramset SMTP_RawData auth none
+paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
+paramset SMTP_RawData server csd.ulan-ude.mecom.ru
+paramset SMTP_RawData primif eth1
+paramset SMTP_RawData secif ""
+paramset SMTP_RawData retries 5
+paramset SMTP_RawData SMTPSender AMK30834@ulan-ude.mecom.ru
+paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_RawData pipesize 3
+spset intRawData 600
+spset ii 99
+spset WAREPHeading  "WWRA46 RUUU"
+spset WAREPHeadEnd  "WORA46 RUUU"
+spset WAREPmidOn  "VVRA46 RUUU"
+spset WAREPmidOFF  "VORA46 RUUU"
+spset EURDEPHeading "SGRA99 RUUU"
+spset Agreement553 "10012"
+spset Agreement55  "112"
+spset Agreement59  "000"
+close
+CCCC:ЗББД;
+KN19_dec:ЗЦРА99 ЗББД;
+KN19_mon:ЗЦРА99 ЗББД;
+KN24_Heading:ЗСРА99 ЗББД;
