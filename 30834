@@ -1,6 +1,3 @@
-paramsetclear hosts
-paramsetclear SMTP_Main
-paramsetclear SMTP_RawData
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30834"
