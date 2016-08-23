@@ -10,7 +10,6 @@ spset pslevel 0.893
 spset sname ZbBu001
 spset MeteoDay 13
 spset Format GMS
-spset ii 99
 spset WMO_Index 30834
 spset WMO_REGION 0
 spset TimeAdd "03 09 15 21"
