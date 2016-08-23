@@ -10,14 +10,14 @@ spset Latitude 51,6833
 spset Longitude 102,15
 spset pslevel 0
 spset sname ZbBu012
-spset MeteoDay 18
+spset MeteoDay 13
 spset EURDEP_Enable 1
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRA90 RUUU"
 spset Format GMS
-spset ii 90
+spset ii 99
 spset WMO_Index 30806
 spset WMO_REGION 0
 spset KN01_StartTime 3004
@@ -36,12 +36,9 @@ spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
-spset Agreement31 0
-spset Agreement52 0
-spset Agreement53 0
-spset Agreement54 0
-spset Agreement57 0
-spset Agreement56 0
+spset Agreement553 "10012"
+spset Agreement55  "112"
+spset Agreement59  "000"
 paramset SMTP_Main auth none
 paramset SMTP_Main srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Main server SMTP.HYDROMET.RU
@@ -58,12 +55,11 @@ paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender station@hydromet.ru
 paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
-paramset hosts "c71csd-grmc.dyndns.org:smtp:port" 2025
-paramset hosts "c71csd-grmc.dyndns.org:smtp:username" name@server.ru
-paramset hosts "c71csd-grmc.dyndns.org:smtp:password" sacredWorld
-paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
-paramset NTPClient_1 server1 "62.117.76.142"
-paramset NTPClient_1 server2 "62.117.76.139"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30806
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30806"
+paramset NTPClient_1 server1 "pool.ntp.org"
+paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
 paramset NTPClient_1 primif eth1
