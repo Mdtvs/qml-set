@@ -57,6 +57,11 @@ paramset SMTP_RawData SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
 close
+LocalityName:УЛАН-УДЭ ОГМС;
+TT_other:СН;
+TT_main:СМ;
+TT_add:СИ;
+AA:РА;
 CCCC:ЗББД;
 KN19_dec:ЗЦРА99 ЗББД;
 KN19_mon:ЗЦРА99 ЗББД;
