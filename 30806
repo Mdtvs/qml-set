@@ -40,13 +40,14 @@ spset Agreement553 "10012"
 spset Agreement55  "112"
 spset Agreement59  "000"
 paramset SMTP_Main auth none
-paramset SMTP_Main srcdomain SMTP.HYDROMET.RU
-paramset SMTP_Main server SMTP.HYDROMET.RU
+paramset SMTP_Main srcdomain ulan-ude.mecom.ru
+paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
-paramset SMTP_Main retries 2
-paramset SMTP_Main SMTPSender station@hydromet.ru
-paramset SMTP_Main SMTPRecep1 csd@unimas.ru
+paramset SMTP_Main retries 5
+paramset SMTP_Main SMTPSender AMS30806@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
 paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Minor server SMTP.HYDROMET.RU
