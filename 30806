@@ -91,7 +91,7 @@ paramset eth1 autoinitinterval 5000
 paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
 paramset eth1 dns2 ""
-paramset eth1 dns1 ""
+paramset eth1 dns1 "90.188.32.22"
 paramset eth1 gateway "10.9.15.94"
 paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.15.92"
