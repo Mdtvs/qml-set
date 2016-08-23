@@ -56,6 +56,15 @@ paramset SMTP_RawData retries 5
 paramset SMTP_RawData SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
+paramset eth1 autoinitinterval 5000
+paramset eth1 autoinit 1
+paramset eth1 ifpriority 1
+paramset eth1 dns2 ""
+paramset eth1 dns1 "90.188.32.22"
+paramset eth1 gateway "192.168.1.1"
+paramset eth1 subnetmask "255.255.255.0"
+paramset eth1 address "192.168.1.100"
+paramset eth1 staticip 1
 close
 LocalityName:УЛАН-УДЭ ОГМС;
 TT_other:СН;
