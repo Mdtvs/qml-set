@@ -1,3 +1,30 @@
+open
+spset a1test 0
+spset Veget "28:04-28:09"
+spset iw 1
+spset GeoPotentialLimit 1000
+spset altitude 600.576
+spset Latitude 51.809645
+spset Longitude 105.7546617
+spset pslevel 0.893
+spset sname ZbBu001
+spset MeteoDay 13
+spset Format GMS
+spset ii 99
+spset WMO_Index 30834
+spset WMO_REGION 0
+spset TimeAdd "03 09 15 21"
+spset TimeMain "00 06 12 18"
+spset TimeOtherAM "  "
+spset TimeOtherPM "  "
+spset Wind_Who 1
+spset PRCrit12H 50
+spset PRCrit1H 30
+spset PRCrit24H 120
+spset Wind_Lim_Avg 20
+spset Wind_Lim_Gust 25
+spset CC_Tools 0
+spset VV_Tools 0
 spset intRawData 600
 spset ii 99
 spset WAREPHeading  "WWRA46 RUUU"
