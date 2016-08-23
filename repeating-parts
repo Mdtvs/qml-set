@@ -1,0 +1,15 @@
+open
+paramset NTPClient_1 server1 "pool.ntp.org"
+paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
+paramset eth1 dns1 "90.188.32.22"
+paramset eth1 staticip 1
+close
+LocalityName:XXXX;
+TT_other:СН;
+TT_main:СМ;
+TT_add:СИ;
+AA:РА;
+CCCC:ЗББД;
+KN19_dec:ЗЦРА99 ЗББД;
+KN19_mon:ЗЦРА99 ЗББД;
+KN24_Heading:ЗСРА99 ЗББД;
