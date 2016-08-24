@@ -1,0 +1,5 @@
+spset EURDEP_Enable 0
+spset EURDEP_Extrem 600
+spset EURDEP_High 200
+spset EURDEP_ORIGINATOR "tel:"
+spset EURDEPHeading "SGRA90 RUUU"
