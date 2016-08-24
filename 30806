@@ -2,7 +2,7 @@ open
 spset a1test 0
 spset VIP 0
 spset TypeAWS 1
-spset Veget "10:03-10:10"
+spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
 spset altitude 754
