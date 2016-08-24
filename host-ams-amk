@@ -1,3 +1,4 @@
+paramsetclear hosts
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-XXXXX
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "XXXXX"
