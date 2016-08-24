@@ -1,3 +1,4 @@
+spset intRawData 600
 paramset SMTP_RawData auth none
 paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
 paramset SMTP_RawData server csd.ulan-ude.mecom.ru
