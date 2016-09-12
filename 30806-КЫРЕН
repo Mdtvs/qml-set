@@ -38,6 +38,7 @@ spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
+spset PR_Tools 1
 spset Agreement553 "10012"
 spset Agreement55  "112"
 spset Agreement59  "000"
