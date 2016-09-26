@@ -48,7 +48,7 @@ paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 5
-paramset SMTP_Main SMTPSender AMK30806@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPSender AMK30741@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
@@ -60,8 +60,8 @@ paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender station@hydromet.ru
 paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30806
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30806"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30741
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30741"
 paramset NTPClient_1 server1 "pool.ntp.org"
 paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
@@ -95,9 +95,9 @@ paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
 paramset eth1 dns2 ""
 paramset eth1 dns1 "90.188.32.22"
-paramset eth1 gateway "10.9.15.94"
+paramset eth1 gateway "10.9.15.54"
 paramset eth1 subnetmask "255.255.255.248"
-paramset eth1 address "10.9.15.92"
+paramset eth1 address "10.9.15.52"
 paramset eth1 staticip 1
 localzone 3
 timezone 8
