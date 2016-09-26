@@ -18,7 +18,7 @@ spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRA90 RUUU"
 spset Format GMS
 spset ii 99
-spset WMO_Index 30806
+spset WMO_Index 30741
 spset WMO_REGION 0
 spset KN01_StartTime 3004
 spset KN01EditTime 600
@@ -26,10 +26,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeading  "WWRA13 RUUU"
-spset WAREPHeadEnd  "WORA13 RUUU"
-spset WAREPmidOn  "VVRA13 RUUU"
-spset WAREPmidOFF  "VORA13 RUUU"
+spset WAREPHeading  "WWRA08 RUUU"
+spset WAREPHeadEnd  "WORA08 RUUU"
+spset WAREPmidOn  "VVRA08 RUUU"
+spset WAREPmidOFF  "VORA08 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
