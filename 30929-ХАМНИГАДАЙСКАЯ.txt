@@ -8,16 +8,15 @@ spset GeoPotentialLimit 1000
 spset altitude 796
 spset Latitude 50.07
 spset Longitude 107.27
-spset pslevel +0.7
+spset pslevel 0.7
 spset sname ZbBu043
-spset MeteoDay 12
-spset EURDEP_Enable 1
+spset MeteoDay 13
+spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
-spset EURDEPHeading "SGRA69 RUCH"
 spset Format GMS
-spset ii 69
+spset ii 99
 spset WMO_Index 30929
 spset WMO_REGION 0
 spset KN01_StartTime 3004
@@ -26,8 +25,10 @@ spset TimeAdd "  "
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "15 21"
 spset TimeOtherPM "03 09"
-spset WAREPHeadEnd "WORA69 RUCH"
-spset WAREPHeading "WWRA69 RUCH"
+spset WAREPHeading  "WWRA40 RUUU"
+spset WAREPHeadEnd  "WORA40 RUUU"
+spset WAREPmidOn  "VVRA40 RUUU"
+spset WAREPmidOFF  "VORA40 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
@@ -36,20 +37,20 @@ spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
-spset Agreement31 0
-spset Agreement52 0
-spset Agreement53 0
-spset Agreement54 0
-spset Agreement57 0
-spset Agreement56 0
-paramset SMTP_Main auth login
-paramset SMTP_Main srcdomain MAIL.RU
-paramset SMTP_Main server SMTP.MAIL.RU
+spset PR_Tools 1
+spset intRawData 600
+spset Agreement553 "10012"
+spset Agreement55  "112"
+spset Agreement59  "000"
+paramset SMTP_Main auth none
+paramset SMTP_Main srcdomain ulan-ude.mecom.ru
+paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
-paramset SMTP_Main retries 2
-paramset SMTP_Main SMTPSender hamnigadaiskqml@mail.ru
-paramset SMTP_Main SMTPRecep1 pronin@burnet.ru
+paramset SMTP_Main retries 5
+paramset SMTP_Main SMTPSender AMK30806@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
 paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Minor server SMTP.HYDROMET.RU
@@ -58,11 +59,11 @@ paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender station@hydromet.ru
 paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
-paramset hosts "smtp.mail.ru:smtp:port" 25
-paramset hosts "smtp.mail.ru:smtp:username" hamnigadaiskqml@mail.ru
-paramset hosts "smtp.mail.ru:smtp:password" loggerqml
-paramset NTPClient_1 server1 "62.117.76.142"
-paramset NTPClient_1 server2 "62.117.76.139"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30806
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30806"
+paramset NTPClient_1 server1 "pool.ntp.org"
+paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
 paramset NTPClient_1 primif eth1
@@ -93,18 +94,21 @@ paramset eth1 autoinitinterval 5000
 paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
 paramset eth1 dns2 ""
-paramset eth1 dns1 ""
+paramset eth1 dns1 "90.188.32.22"
 paramset eth1 gateway "10.9.16.86"
 paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.16.84"
 paramset eth1 staticip 1
+localzone 3
+timezone 8
+ntp set pool.ntp.org
 close
 LocalityName:’¿ÃÕ»√¿ƒ¿…— ¿ﬂ;
 TT_other:—Õ;
 TT_main:—Ã;
 TT_add:—»;
 AA:–¿;
-CCCC:«¡”ƒ;
-KN19_dec:«÷–¿69 «¡”ƒ;
-KN19_mon:÷—–¿69 «¡”ƒ;
-KN24_Heading:«÷–¿69 «¡”ƒ;
+CCCC:«¡¡ƒ;
+KN19_dec:«÷–¿99 «¡¡ƒ;
+KN19_mon:«÷–¿99 «¡¡ƒ;
+KN24_Heading:«—–¿99 «¡¡ƒ;
