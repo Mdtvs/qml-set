@@ -22,7 +22,7 @@ spset WMO_Index 30929
 spset WMO_REGION 0
 spset KN01_StartTime 3004
 spset KN01EditTime 600
-spset TimeAdd "  "
+spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "15 21"
 spset TimeOtherPM "03 09"
