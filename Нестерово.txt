@@ -1,0 +1,111 @@
+--------------  меярепнбн  --------------"
+open
+spset a1test 0
+spset VIP 0
+spset TypeAWS 1
+spset Veget "10:03-10:10"
+spset iw 1
+spset GeoPotentialLimit 1000
+spset altitude 561
+spset Latitude 52,23
+spset Longitude 107,52
+spset pslevel -0,2
+spset sname ZbBu016
+spset MeteoDay 12
+spset EURDEP_Enable 1
+spset EURDEP_Extrem 600
+spset EURDEP_High 200
+spset EURDEP_ORIGINATOR "tel:"
+spset EURDEPHeading "SGRA96 RUCH"
+spset Format GMS
+spset ii 96
+spset WMO_Index 733
+spset WMO_REGION 30
+spset KN01_StartTime 3004
+spset KN01EditTime 600
+spset TimeAdd " "
+spset TimeMain "00 06 12 18"
+spset TimeOtherAM "15 21"
+spset TimeOtherPM "03 09"
+spset WAREPHeadEnd "WORA96 RUCH"
+spset WAREPHeading "WWRA96 RUCH"
+spset Wind_Who 1
+spset PRCrit12H 50
+spset PRCrit1H 30
+spset PRCrit24H 50
+spset Wind_Lim_Avg 20
+spset Wind_Lim_Gust 25
+spset CC_Tools 0
+spset VV_Tools 0
+spset Agreement31 0
+spset Agreement52 0
+spset Agreement53 0
+spset Agreement54 0
+spset Agreement57 0
+spset Agreement56 0
+paramset SMTP_Main auth login
+paramset SMTP_Main srcdomain SMTP.mail.ru
+paramset SMTP_Main server mail.ru
+paramset SMTP_Main primif eth1
+paramset SMTP_Main secif ""
+paramset SMTP_Main retries 2
+paramset SMTP_Main SMTPSender nesterovoqml@mail.ru
+paramset SMTP_Main SMTPRecep1 pronin@burnet.ru
+paramset SMTP_Minor auth none
+paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
+paramset SMTP_Minor server SMTP.HYDROMET.RU
+paramset SMTP_Minor primif eth1
+paramset SMTP_Minor secif ""
+paramset SMTP_Minor retries 2
+paramset SMTP_Minor SMTPSender station@hydromet.ru
+paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
+paramset hosts "smtp.mail.ru:smtp:port" 25
+paramset hosts "smtp.mail.ru:smtp:username" nesterovoqml@mail.ru
+paramset hosts "smtp.mail.ru:smtp:password" loggerqml
+paramset NTPClient_1 server1 "62.117.76.142"
+paramset NTPClient_1 server2 "62.117.76.139"
+paramset NTPClient_1 timeout 30000
+paramset NTPClient_1 timetol 5000
+paramset NTPClient_1 primif eth1
+paramset NTPClient_1 retries 2
+paramset NTPClient_1 datagrams 3
+paramset NTPClient_1 secif ""
+paramset SurfTBush_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset RH_MeasWithCorr coeff "0;0;0;0;0;"
+paramset RH_MeasWithCorr coeff2 "0;0;0;0;0;"
+paramset RH_MeasWithCorr point "0;0;0;0;0;"
+paramset RH_MeasWithCorr point2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset eth1 autoinitinterval 5000
+paramset eth1 autoinit 1
+paramset eth1 ifpriority 1
+paramset eth1 dns2 ""
+paramset eth1 dns1 ""
+paramset eth1 gateway "10.9.15.126"
+paramset eth1 subnetmask "255.255.255.248"
+paramset eth1 address "10.9.15.124"
+paramset eth1 staticip 1
+close
+LocalityName:меярепнбн;
+TT_other:ям;
+TT_main:ял;
+TT_add:ях;
+AA:пю;
+CCCC:гасд;
+KN19_dec:гжпю96 гасд;
+KN19_mon:жяпю96 гасд;
+KN24_Heading:гжпю96 гасд;

@@ -1,0 +1,13 @@
+spset Agreement31 112
+spset Agreement32 100
+spset Agreement34 100
+spset Agreement355 0
+spset Agreement51 11200
+spset Agreement52 0
+spset Agreement53 100
+spset Agreement54 100
+spset Agreement55 100
+spset Agreement553 11200
+spset Agreement56 0
+spset Agreement57 100
+spset Agreement59 0
