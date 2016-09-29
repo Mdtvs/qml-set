@@ -71,7 +71,7 @@ paramset eth1 subnetmask "255.255.255.0"
 paramset eth1 address "192.168.1.100"
 paramset eth1 staticip 1
 close
-LocalityName:УЛАН-УДЭ ОГМС;
+LocalityName:АМС УЛАН-УДЭ;
 TT_other:СН;
 TT_main:СМ;
 TT_add:СИ;
