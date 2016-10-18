@@ -1,24 +1,27 @@
-Ôªøopen
+"--------------   ﬂ’“¿  --------------"
+open
+spset lim_910ff 9.500000
+spset lim_911ff 9.500000
 spset a1test 0
 spset VIP 0
 spset TypeAWS 1
-spset Veget "10:03-10:10"
+spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 1288
-spset Latitude 52.46
-spset Longitude 109.58
-spset pslevel -2.0
-spset sname ZbBu007
+spset altitude 791
+spset Latitude 50,3667
+spset Longitude 106,45
+spset pslevel 6.4 
+spset sname ZbBu013
 spset MeteoDay 13
-spset EURDEP_Enable 0
+spset EURDEP_Enable 1
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
-spset EURDEPHeading "SGRA90 RUUU"
+spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
-spset WMO_Index 30741
+spset WMO_Index 30925
 spset WMO_REGION 0
 spset KN01_StartTime 3004
 spset KN01EditTime 600
@@ -26,10 +29,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeading  "WWRA08 RUUU"
-spset WAREPHeadEnd  "WORA08 RUUU"
-spset WAREPmidOn  "VVRA08 RUUU"
-spset WAREPmidOFF  "VORA08 RUUU"
+spset WAREPmidOFF "VORA14 RUUU"
+spset WAREPmidOn "VVRA14 RUUU"
+spset WAREPHeadEnd "WORA14 RUUU"
+spset WAREPHeading "WWRA14 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
@@ -38,36 +41,44 @@ spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
-spset PR_Tools 1
-spset Agreement553 "10012"
-spset Agreement55  "112"
-spset Agreement59  "000"
+spset Agreement59 0
+spset Agreement553 11200
+spset Agreement55 112
+spset Agreement31 112
+spset Agreement52 1
+spset Agreement53 100
+spset Agreement54 100
+spset Agreement56 11200
+spset Agreement57 100
+spset localzone 3
+spset intRawData 600
+timezone 8
 paramset SMTP_Main auth none
-paramset SMTP_Main srcdomain ulan-ude.mecom.ru
-paramset SMTP_Main server csd.ulan-ude.mecom.ru
+paramset SMTP_Main srcdomain rbpogoda.ru
+paramset SMTP_Main server www.rbpogoda.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
-paramset SMTP_Main retries 5
-paramset SMTP_Main SMTPSender AMK30741@ulan-ude.mecom.ru
+paramset SMTP_Main retries 2
+paramset SMTP_Main SMTPSender AMK30925@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
-paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
 paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Minor server SMTP.HYDROMET.RU
 paramset SMTP_Minor primif eth1
 paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
-paramset SMTP_Minor SMTPSender station@hydromet.ru
-paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30741
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30741"
-paramset NTPClient_1 server1 "pool.ntp.org"
-paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
+paramset SMTP_Minor SMTPSender AMK30915@ulan-ude.mecom.ru
+paramset SMTP_Minor SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset hosts "www.rbpogoda.ru:smtp:password" 30925
+paramset hosts "www.rbpogoda.ru:smtp:port" 7100
+paramset hosts "www.rbpogoda.ru:smtp:username" AMK-30925
+paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
+paramset NTPClient_1 server1 "0.europe.pool.ntp.org"
+paramset NTPClient_1 server2 "1.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
 paramset NTPClient_1 primif eth1
-paramset NTPClient_1 retries 2
+paramset NTPClient_1 retries 3
 paramset NTPClient_1 datagrams 3
 paramset NTPClient_1 secif ""
 paramset SurfTBush_CalcMeasWithCorr coeff "0;0;0;0;0;"
@@ -93,22 +104,19 @@ paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
 paramset eth1 autoinitinterval 5000
 paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
-paramset eth1 dns2 ""
-paramset eth1 dns1 "90.188.32.22"
-paramset eth1 gateway "10.9.15.54"
+paramset eth1 dns2 "8.8.8.8"
+paramset eth1 dns1 "8.8.4.4"
+paramset eth1 gateway "10.9.15.102"
 paramset eth1 subnetmask "255.255.255.248"
-paramset eth1 address "10.9.15.52"
+paramset eth1 address "10.9.15.100"
 paramset eth1 staticip 1
-localzone 3
-timezone 8
-ntp set pool.ntp.org
 close
-LocalityName:–ó–ê–ú–ê–ö–¢–ê;
-TT_other:–°–ù;
-TT_main:–°–ú;
-TT_add:–°–ò;
-AA:–†–ê;
-CCCC:–ó–ë–ë–î;
-KN19_dec:–ó–¶–†–ê99 –ó–ë–ë–î;
-KN19_mon:–ó–¶–†–ê99 –ó–ë–ë–î;
-KN24_Heading:–ó–°–†–ê99 –ó–ë–ë–î;
+LocalityName: ﬂ’“¿;
+TT_other:—Õ;
+TT_main:—Ã;
+TT_add:—»;
+AA:–¿;
+CCCC:«¡¡ƒ;
+KN19_dec:«÷–¿99 «¡¡ƒ;
+KN19_mon:÷—–¿99 «¡¡ƒ;
+KN24_Heading:«÷–¿99 «¡¡ƒ;
