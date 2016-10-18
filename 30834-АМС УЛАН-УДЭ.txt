@@ -70,6 +70,9 @@ paramset eth1 gateway "192.168.1.1"
 paramset eth1 subnetmask "255.255.255.0"
 paramset eth1 address "192.168.1.100"
 paramset eth1 staticip 1
+localzone 3
+timezone 8
+ntp set pool.ntp.org
 close
 LocalityName:АМС УЛАН-УДЭ;
 TT_other:СН;
