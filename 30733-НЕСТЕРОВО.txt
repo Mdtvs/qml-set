@@ -1,4 +1,3 @@
---------------  ÍÅÑÒÅÐÎÂÎ  --------------"
 open
 spset a1test 0
 spset VIP 0
@@ -100,12 +99,3 @@ paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.15.124"
 paramset eth1 staticip 1
 close
-LocalityName:ÍÅÑÒÅÐÎÂÎ;
-TT_other:ÑÍ;
-TT_main:ÑÌ;
-TT_add:ÑÈ;
-AA:ÐÀ;
-CCCC:ÇÁÓÄ;
-KN19_dec:ÇÖÐÀ96 ÇÁÓÄ;
-KN19_mon:ÖÑÐÀ96 ÇÁÓÄ;
-KN24_Heading:ÇÖÐÀ96 ÇÁÓÄ;
