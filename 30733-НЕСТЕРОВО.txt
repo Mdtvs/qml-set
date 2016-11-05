@@ -1,4 +1,4 @@
---------------  меярепнбн  --------------"
+--------------  ц█ц┘ц▒ц▓ц┘ц░ц▌ц┌ц▌  --------------"
 open
 spset a1test 0
 spset VIP 0
@@ -100,12 +100,12 @@ paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.15.124"
 paramset eth1 staticip 1
 close
-LocalityName:меярепнбн;
-TT_other:ям;
-TT_main:ял;
-TT_add:ях;
-AA:пю;
-CCCC:гасд;
-KN19_dec:гжпю96 гасд;
-KN19_mon:жяпю96 гасд;
-KN24_Heading:гжпю96 гасд;
+LocalityName:ц█ц┘ц▒ц▓ц┘ц░ц▌ц┌ц▌;
+TT_other:ц▒ц█;
+TT_main:ц▒ц▄;
+TT_add:ц▒ц┬;
+AA:ц░ц─;
+CCCC:ц┤ц│ц⌠ц└;
+KN19_dec:ц┤ц√ц░ц─96 ц┤ц│ц⌠ц└;
+KN19_mon:ц√ц▒ц░ц─96 ц┤ц│ц⌠ц└;
+KN24_Heading:ц┤ц√ц░ц─96 ц┤ц│ц⌠ц└;
