@@ -28,10 +28,10 @@ spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
 spset ii 99
-spset WAREPHeading  "WWRA46 RUUU"
-spset WAREPHeadEnd  "WORA46 RUUU"
-spset WAREPmidOn  "VVRA46 RUUU"
-spset WAREPmidOFF  "VORA46 RUUU"
+spset WAREPHeading  "WWRAXX RUUU"
+spset WAREPHeadEnd  "WORAXX RUUU"
+spset WAREPmidOn  "VVRAXX RUUU"
+spset WAREPmidOFF  "VORAXX RUUU"
 spset EURDEPHeading "SGRA99 RUUU"
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
@@ -71,6 +71,8 @@ spset Agreement59  "000"
 spset Agreement57  "100"
 spset Agreement56  "10012"
 spset localzone 3
+spset lim_911ff = 9.500000
+spset lim_910ff = 9.500000
 timezone 8
 ntp set pool.ntp.org
 close
