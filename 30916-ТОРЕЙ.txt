@@ -1,0 +1,117 @@
+open
+spset a1test 0
+spset VIP 0
+spset TypeAWS 0
+spset Veget "10:03-10:10"
+spset iw 1
+spset GeoPotentialLimit 1000
+spset altitude 733
+spset Latitude 50,5333
+spset Longitude 104,1667
+spset pslevel 0
+spset sname ZbBu032
+spset MeteoDay 18
+spset EURDEP_Enable 1
+spset EURDEP_Extrem 600
+spset EURDEP_High 200
+spset EURDEP_ORIGINATOR "tel:"
+spset EURDEPHeading "SGRA90 RUUU"
+spset Format GMS
+spset ii 90
+spset WMO_Index 30916
+spset WMO_REGION 0
+spset KN01_StartTime 3004
+spset KN01EditTime 600
+spset TimeAdd "03 09 15 21"
+spset TimeMain "00 06 12 18"
+spset TimeOtherAM "  "
+spset TimeOtherPM "  "
+spset WAREPHeadEnd "WORA90 RUUU"
+spset WAREPHeading "WWRA90 RUUU"
+spset Wind_Who 1
+spset PRCrit12H 50
+spset PRCrit1H 30
+spset PRCrit24H 120
+spset Wind_Lim_Avg 20
+spset Wind_Lim_Gust 25
+spset CC_Tools 0
+spset VV_Tools 0
+spset Agreement31 0
+spset Agreement52 0
+spset Agreement53 0
+spset Agreement54 0
+spset Agreement57 0
+spset Agreement56 0
+paramset SMTP_Main auth none
+paramset SMTP_Main srcdomain SMTP.HYDROMET.RU
+paramset SMTP_Main server SMTP.HYDROMET.RU
+paramset SMTP_Main primif netif0
+paramset SMTP_Main secif ""
+paramset SMTP_Main retries 2
+paramset SMTP_Main SMTPSender station@hydromet.ru
+paramset SMTP_Main SMTPRecep1 csd@unimas.ru
+paramset SMTP_Minor auth none
+paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
+paramset SMTP_Minor server SMTP.HYDROMET.RU
+paramset SMTP_Minor primif netif0
+paramset SMTP_Minor secif ""
+paramset SMTP_Minor retries 2
+paramset SMTP_Minor SMTPSender station@hydromet.ru
+paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
+paramset hosts "c71csd-grmc.dyndns.org:smtp:port" 2025
+paramset hosts "c71csd-grmc.dyndns.org:smtp:username" name@server.ru
+paramset hosts "c71csd-grmc.dyndns.org:smtp:password" sacredWorld
+paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
+paramset NTPClient_1 server1 "62.117.76.142"
+paramset NTPClient_1 server2 "62.117.76.139"
+paramset NTPClient_1 timeout 30000
+paramset NTPClient_1 timetol 5000
+paramset NTPClient_1 primif netif0
+paramset NTPClient_1 retries 2
+paramset NTPClient_1 datagrams 3
+paramset NTPClient_1 secif ""
+paramset SurfTBush_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset SurfTBush_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset RH_MeasWithCorr coeff "0;0;0;0;0;"
+paramset RH_MeasWithCorr coeff2 "0;0;0;0;0;"
+paramset RH_MeasWithCorr point "0;0;0;0;0;"
+paramset RH_MeasWithCorr point2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset netif0 auth_both 0
+paramset netif0 autoinit 1
+paramset netif0 ifpriority 1
+paramset netif0 dns2 ""
+paramset netif0 dns1 ""
+paramset netif0 gateway "10.0.0.1"
+paramset netif0 subnetmask "255.255.255.0"
+paramset netif0 address "10.0.0.1"
+paramset netif0 staticip 0
+paramset netif0 isp  "*99***1#"
+paramset netif0 password mts
+paramset netif0 username mts
+paramset netif0 auth any
+paramset netif0 servername  ""
+paramset netif0 apn internet.mts.ru
+close
+LocalityName:“Œ–≈…;
+TT_other:—Õ;
+TT_main:—Ã;
+TT_add:—»;
+AA:–¿;
+CCCC:«¡””;
+KN19_dec:«÷–¿90 «¡””;
+KN19_mon:÷—–¿90 «¡””;
+KN24_Heading:«÷–¿90 «¡””;
