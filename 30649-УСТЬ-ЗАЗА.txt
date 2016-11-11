@@ -10,14 +10,14 @@ spset Latitude 53,2167
 spset Longitude 111,6833
 spset pslevel 0
 spset sname ZbBu041
-spset MeteoDay 18
+spset MeteoDay 13
 spset EURDEP_Enable 1
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRA90 RUUU"
 spset Format GMS
-spset ii 90
+spset ii 99
 spset WMO_Index 30649
 spset WMO_REGION 0
 spset KN01_StartTime 3004
@@ -26,8 +26,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeadEnd "WORA90 RUUU"
-spset WAREPHeading "WWRA90 RUUU"
+spset WAREPHeading  "WWRAXX RUUU"
+spset WAREPHeadEnd  "WORAXX RUUU"
+spset WAREPmidOn  "VVRAXX RUUU"
+spset WAREPmidOFF  "VORAXX RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
@@ -36,12 +38,6 @@ spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
-spset Agreement31 0
-spset Agreement52 0
-spset Agreement53 0
-spset Agreement54 0
-spset Agreement57 0
-spset Agreement56 0
 paramset SMTP_Main auth none
 paramset SMTP_Main srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Main server SMTP.HYDROMET.RU
@@ -105,13 +101,21 @@ paramset netif0 username mts
 paramset netif0 auth any
 paramset netif0 servername  ""
 paramset netif0 apn internet.mts.ru
+spset intRawData 600
+spset PR_Tools 1
+spset Agreement553 "10012"
+spset Agreement55  "112"
+spset Agreement59  "000"
+spset localzone 3
+spset lim_911ff = 9.500000
+spset lim_910ff = 9.500000
 close
 LocalityName:”—“‹-«¿«¿;
 TT_other:—Õ;
 TT_main:—Ã;
 TT_add:—»;
 AA:–¿;
-CCCC:«¡””;
-KN19_dec:«÷–¿90 «¡””;
-KN19_mon:÷—–¿90 «¡””;
-KN24_Heading:«÷–¿90 «¡””;
+CCCC:«¡¡ƒ;
+KN19_dec:«÷–¿99 «¡¡ƒ;
+KN19_mon:«÷–¿99 «¡¡ƒ;
+KN24_Heading:«—–¿99 «¡¡ƒ;
