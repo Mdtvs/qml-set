@@ -36,7 +36,6 @@ spset PRCrit1H 30
 spset PRCrit24H 50
 spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
-spset intRawData 600
 spset CC_Tools 0
 spset VV_Tools 0
 paramset SMTP_Main auth none
