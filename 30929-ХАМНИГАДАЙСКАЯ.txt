@@ -115,12 +115,13 @@ paramset SMTP_RawData pipesize 3
 timezone 8
 ntp set pool.ntp.org
 close
-LocalityName:藍勁횻읕읠驥잘;
-TT_other:佶;
-TT_main:緊;
-TT_add:騎;
-AA:隙;
-CCCC:프좔;
-KN19_dec:핫隙99 프좔;
-KN19_mon:핫隙99 프좔;
-KN24_Heading:한隙99 프좔;
+close
+LocalityName:ХАМНИГАДАЙСКАЯ;
+TT_other:СН;
+TT_main:СМ;
+TT_add:СИ;
+AA:РА;
+CCCC:ЗББД;
+KN19_dec:ЗЦРА99 ЗББД;
+KN19_mon:ЗЦРА99 ЗББД;
+KN24_Heading:ЗСРА99 ЗББД;
