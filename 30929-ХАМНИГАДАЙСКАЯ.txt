@@ -115,7 +115,6 @@ paramset SMTP_RawData pipesize 3
 timezone 8
 ntp set pool.ntp.org
 close
-close
 LocalityName:ХАМНИГАДАЙСКАЯ;
 TT_other:СН;
 TT_main:СМ;
