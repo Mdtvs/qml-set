@@ -101,8 +101,8 @@ spset Agreement553 "10012"
 spset Agreement55  "112"
 spset Agreement59  "000"
 spset localzone 3
-spset lim_911ff = 9.500000
-spset lim_910ff = 9.500000
+spset lim_911ff 9.5
+spset lim_910ff 9.5
 paramset SMTP_RawData auth none
 paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
 paramset SMTP_RawData server csd.ulan-ude.mecom.ru
