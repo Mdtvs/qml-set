@@ -1,0 +1,15 @@
+paramsetclear EmailManager
+paramsetclear EmailMonitorMain
+paramsetclear EmailMonitorMinor
+paramsetclear EmailMonitorRawData
+paramsetclear KN01Calc
+paramsetclear KN01Start
+paramsetclear NTPClient_1
+paramsetclear PA_CalcMeasWithCorr
+paramsetclear RH_MeasWithCorr
+paramsetclear SMTP_Main
+paramsetclear SMTP_Minor
+paramsetclear SMTP_RawData
+paramsetclear SetupManager
+paramsetclear SurfT_CalcMeasWithCorr
+paramsetclear TA_CalcMeasWithCorr
