@@ -1,4 +1,4 @@
-open
+Ôªøopen
 spset a1test 0
 spset VIP 0
 spset TypeAWS 0
@@ -107,8 +107,8 @@ spset Agreement553 "10012"
 spset Agreement55  "112"
 spset Agreement59  "000"
 spset localzone 3
-spset lim_911ff = 9.500000
-spset lim_910ff = 9.500000
+spset lim_911ff 9.5
+spset lim_910ff 9.5
 paramset SMTP_RawData auth none
 paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
 paramset SMTP_RawData server csd.ulan-ude.mecom.ru
@@ -134,12 +134,12 @@ paramset netif1 subnetmask "255.255.255.0"
 paramset netif1 username meteopap
 paramset netif1 vjcompress 0
 close
-LocalityName:”—“‹-«¿«¿;
-TT_other:—Õ;
-TT_main:—Ã;
-TT_add:—»;
-AA:–¿;
-CCCC:«¡¡ƒ;
-KN19_dec:«÷–¿99 «¡¡ƒ;
-KN19_mon:«÷–¿99 «¡¡ƒ;
-KN24_Heading:«—–¿99 «¡¡ƒ;
+LocalityName:–£–°–¢–¨-–ó–ê–ó–ê;
+TT_other:–°–ù;
+TT_main:–°–ú;
+TT_add:–°–ò;
+AA:–†–ê;
+CCCC:–ó–ë–ë–î;
+KN19_dec:–ó–¶–†–ê99 –ó–ë–ë–î;
+KN19_mon:–¶–°–†–ê99 –ó–ë–ë–î;
+KN24_Heading:–ó–°–†–ê99 –ó–ë–ë–î;
