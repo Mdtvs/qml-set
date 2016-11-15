@@ -103,15 +103,6 @@ spset Agreement59  "000"
 spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
-paramset SMTP_RawData auth none
-paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
-paramset SMTP_RawData server csd.ulan-ude.mecom.ru
-paramset SMTP_RawData primif eth1
-paramset SMTP_RawData secif ""
-paramset SMTP_RawData retries 5
-paramset SMTP_RawData SMTPSender AMK30929@ulan-ude.mecom.ru
-paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
-paramset SMTP_RawData pipesize 3
 timezone 8
 ntp set pool.ntp.org
 close
@@ -122,5 +113,5 @@ TT_add:СИ;
 AA:РА;
 CCCC:ЗББД;
 KN19_dec:ЗЦРА99 ЗББД;
-KN19_mon:ЗЦРА99 ЗББД;
+KN19_mon:ЦСРА99 ЗББД;
 KN24_Heading:ЗСРА99 ЗББД;
