@@ -70,8 +70,8 @@ spset Agreement553 "11200"
 spset Agreement55 "112"
 spset Agreement59 "000"
 spset localzone 3
-spset lim_911ff = 9.500000
-spset lim_910ff = 9.500000
+spset lim_911ff 9.5
+spset lim_910ff 9.5
 timezone 8
 ntp set pool.ntp.org
 close
