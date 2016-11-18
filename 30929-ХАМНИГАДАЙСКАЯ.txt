@@ -1,7 +1,7 @@
 ﻿open
 spset a1test 0
 spset VIP 0
-spset TypeAWS 1
+spset TypeAWS 0
 spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
@@ -20,8 +20,8 @@ spset Format GMS
 spset ii 99
 spset WMO_Index 30929
 spset WMO_REGION 30
-spset KN01_StartTime 3004
-spset KN01EditTime 600
+spset KN01_StartTime 0
+spset KN01EditTime 0
 spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
