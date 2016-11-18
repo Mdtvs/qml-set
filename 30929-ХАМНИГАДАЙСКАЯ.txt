@@ -33,7 +33,7 @@ spset WAREPmidOFF  "VORA40 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
-spset PRCrit24H 50
+spset PRCrit24H 120
 spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
