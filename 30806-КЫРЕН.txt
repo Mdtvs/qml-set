@@ -15,11 +15,11 @@ spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
-spset EURDEPHeading "SGRA90 RUUU"
+spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 30806
-spset WMO_REGION 0
+spset WMO_REGION 30
 spset KN01_StartTime 3004
 spset KN01EditTime 600
 spset TimeAdd "03 09 15 21"
