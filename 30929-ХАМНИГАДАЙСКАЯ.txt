@@ -97,7 +97,7 @@ paramset eth1 address "10.9.16.84"
 paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 1
-spset Agreement31 112
+spset Agreement31 "112"
 spset Agreement553 "11200"
 spset Agreement55 "112"
 spset Agreement59 "000"
