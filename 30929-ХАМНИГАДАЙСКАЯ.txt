@@ -15,7 +15,7 @@ spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
-spset EURDEPHeading "SGRA90 RUUU"
+spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 30929
