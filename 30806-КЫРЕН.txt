@@ -97,9 +97,12 @@ paramset eth1 address "10.9.15.92"
 paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 1
+spset Agreement31 "112"
+spset Agreement57 "100"
+spset Agreement55 "112"
 spset Agreement553 "10012"
-spset Agreement55  "112"
-spset Agreement59  "000"
+spset Agreement59 "000"
+spset Agreement34 "100"
 spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
