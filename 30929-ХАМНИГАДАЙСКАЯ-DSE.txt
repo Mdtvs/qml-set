@@ -104,6 +104,7 @@ paramset SMTP_RawData retries 5
 paramset SMTP_RawData SMTPSender AMK30929@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
+spset RawData 1
 spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
