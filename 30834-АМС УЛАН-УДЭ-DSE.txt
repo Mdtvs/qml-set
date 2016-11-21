@@ -2,14 +2,14 @@
 spset a1test 0
 spset VIP 0
 spset TypeAWS 0
-spset Veget "10:05-30:09"
+spset Veget "28:04-28:09"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 796
-spset Latitude 50.07
-spset Longitude 107.27
-spset pslevel 0.7
-spset sname ZbBu043
+spset altitude 600.576
+spset Latitude 51.809645
+spset Longitude 105.7546617
+spset pslevel 0.893
+spset sname ZbBuXXX
 spset MeteoDay 13
 spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
@@ -18,7 +18,7 @@ spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
-spset WMO_Index 30929
+spset WMO_Index 30834
 spset WMO_REGION 30
 spset KN01_StartTime 0
 spset KN01EditTime 0
@@ -26,10 +26,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeading  "WWRA40 RUUU"
-spset WAREPHeadEnd  "WORA40 RUUU"
-spset WAREPmidOn  "VVRA40 RUUU"
-spset WAREPmidOFF  "VORA40 RUUU"
+spset WAREPHeading  "WWRAXX RUUU"
+spset WAREPHeadEnd  "WORAXX RUUU"
+spset WAREPmidOn  "VVRAXX RUUU"
+spset WAREPmidOFF  "VORAXX RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
@@ -44,7 +44,7 @@ paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 5
-paramset SMTP_Main SMTPSender AMK30929@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
@@ -56,8 +56,8 @@ paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender station@hydromet.ru
 paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30929
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30929"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30834"
 paramset NTPClient_1 server1 "pool.ntp.org"
 paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
@@ -101,7 +101,7 @@ paramset SMTP_RawData server csd.ulan-ude.mecom.ru
 paramset SMTP_RawData primif eth1
 paramset SMTP_RawData secif ""
 paramset SMTP_RawData retries 5
-paramset SMTP_RawData SMTPSender AMK30929@ulan-ude.mecom.ru
+paramset SMTP_RawData SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
 spset RawData 1
@@ -118,7 +118,7 @@ spset lim_910ff 9.5
 timezone 8
 ntp set pool.ntp.org
 close
-LocalityName:ХАМНИГАДАЙСКАЯ;
+LocalityName:АМС УЛАН-УДЭ;
 TT_other:СН;
 TT_main:СМ;
 TT_add:СИ;
