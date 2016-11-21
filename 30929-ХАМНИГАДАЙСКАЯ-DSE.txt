@@ -1,4 +1,4 @@
-open
+﻿open
 spset a1test 0
 spset VIP 0
 spset TypeAWS 0
@@ -95,6 +95,15 @@ paramset eth1 gateway "10.9.16.86"
 paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.16.84"
 paramset eth1 staticip 1
+paramset SMTP_RawData auth none
+paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
+paramset SMTP_RawData server csd.ulan-ude.mecom.ru
+paramset SMTP_RawData primif eth1
+paramset SMTP_RawData secif ""
+paramset SMTP_RawData retries 5
+paramset SMTP_RawData SMTPSender AMK30929@ulan-ude.mecom.ru
+paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_RawData pipesize 3
 spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
