@@ -98,9 +98,13 @@ paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
+spset Agreement52 "0"
+spset Agreement53 "0"
+spset Agreement54 "0"
 spset Agreement57 "100"
+spset Agreement56 "0"
 spset Agreement55 "112"
-spset Agreement553 "10012"
+spset Agreement553 "11200"
 spset Agreement59 "000"
 spset localzone 3
 spset lim_911ff 9.5
