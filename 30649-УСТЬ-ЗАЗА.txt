@@ -19,9 +19,9 @@ spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 30649
-spset WMO_REGION 0
-spset KN01_StartTime 3004
-spset KN01EditTime 600
+spset WMO_REGION 30
+spset KN01_StartTime 0
+spset KN01EditTime 0
 spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
@@ -103,9 +103,11 @@ paramset netif0 servername ""
 paramset netif0 apn internet.mts.ru
 spset intRawData 600
 spset PR_Tools 1
+spset Agreement31 "112"
+spset Agreement57 "100"
+spset Agreement55 "112"
 spset Agreement553 "10012"
-spset Agreement55  "112"
-spset Agreement59  "000"
+spset Agreement59 "000"
 spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
