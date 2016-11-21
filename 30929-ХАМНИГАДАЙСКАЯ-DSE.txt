@@ -108,3 +108,12 @@ spset lim_910ff 9.5
 timezone 8
 ntp set pool.ntp.org
 close
+LocalityName:ХАМНИГАДАЙСКАЯ;
+TT_other:СН;
+TT_main:СМ;
+TT_add:СИ;
+AA:РА;
+CCCC:ЗББД;
+KN19_dec:ЗЦРА99 ЗББД;
+KN19_mon:ЦСРА99 ЗББД;
+KN24_Heading:ЗСРА99 ЗББД;
