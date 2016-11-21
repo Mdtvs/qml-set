@@ -1,8 +1,8 @@
 open
 spset a1test 0
 spset VIP 0
-spset TypeAWS 1
-spset Veget "10:03-10:10"
+spset TypeAWS 0
+spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
 spset altitude 796
@@ -15,13 +15,13 @@ spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
-spset EURDEPHeading "SGRA69 RUCH"
+spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 30929
-spset WMO_REGION 0
-spset KN01_StartTime 3004
-spset KN01EditTime 600
+spset WMO_REGION 30
+spset KN01_StartTime 0
+spset KN01EditTime 0
 spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
@@ -33,7 +33,7 @@ spset WAREPmidOFF  "VORA40 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
-spset PRCrit24H 50
+spset PRCrit24H 120
 spset Wind_Lim_Avg 20
 spset Wind_Lim_Gust 25
 spset CC_Tools 0
@@ -97,19 +97,14 @@ paramset eth1 address "10.9.16.84"
 paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 1
+spset Agreement31 "112"
+spset Agreement57 "100"
+spset Agreement55 "112"
 spset Agreement553 "10012"
-spset Agreement55  "112"
-spset Agreement59  "000"
+spset Agreement59 "000"
 spset localzone 3
+spset lim_911ff 9.5
+spset lim_910ff 9.5
 timezone 8
 ntp set pool.ntp.org
 close
-LocalityName:’¿ÃÕ»√¿ƒ¿…— ¿ﬂ;
-TT_other:—Õ;
-TT_main:—Ã;
-TT_add:—»;
-AA:–¿;
-CCCC:«¡¡ƒ;
-KN19_dec:«÷–¿99 «¡¡ƒ;
-KN19_mon:«÷–¿99 «¡¡ƒ;
-KN24_Heading:«—–¿99 «¡¡ƒ;
