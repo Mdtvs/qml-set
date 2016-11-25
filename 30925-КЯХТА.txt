@@ -6,8 +6,8 @@ spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
 spset altitude 791
-spset Latitude 50,3667
-spset Longitude 106,45
+spset Latitude 50.3667
+spset Longitude 106.45
 spset pslevel 6.4 
 spset sname ZbBu013
 spset MeteoDay 13
