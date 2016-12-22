@@ -1,4 +1,4 @@
-open
+Ôªøopen
 spset a1test 0
 spset VIP 0
 spset TypeAWS 1
@@ -104,12 +104,12 @@ spset localzone 3
 timezone 8
 ntp set pool.ntp.org
 close
-LocalityName:Œ–À» ;
-TT_other:—Õ;
-TT_main:—Ã;
-TT_add:—»;
-AA:–¿;
-CCCC:«¡””;
-KN19_dec:«÷–¿99 «¡””;
-KN19_mon:÷—–¿99 «¡””;
-KN24_Heading:«÷–¿96 «¡”ƒ;
+LocalityName:–û–†–õ–ò–ö;
+TT_other:–°–ù;
+TT_main:–°–ú;
+TT_add:–°–ò;
+AA:–†–ê;
+CCCC:–ó–ë–£–£;
+KN19_dec:–ó–¶–†–ê99 –ó–ë–£–£;
+KN19_mon:–¶–°–†–ê99 –ó–ë–£–£;
+KN24_Heading:–ó–¶–†–ê96 –ó–ë–£–î;
