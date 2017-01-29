@@ -1,4 +1,3 @@
-"--------------  ÌÎÍÄÛ  --------------"
 open
 spset a1test 0
 spset VIP 0
@@ -11,7 +10,7 @@ spset Latitude 51.42
 spset Longitude 101
 spset pslevel 1.2
 spset sname ZbBu014
-spset MeteoDay 12
+spset MeteoDay 13
 spset EURDEP_Enable 1
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
