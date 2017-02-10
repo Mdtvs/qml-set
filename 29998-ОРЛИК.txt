@@ -58,8 +58,8 @@ paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-29998
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "29998"
-paramset NTPClient_1 server1 "pool.ntp.org"
-paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
+paramset NTPClient_1 server1 "0.europe.pool.ntp.org"
+paramset NTPClient_1 server2 "1.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
 paramset NTPClient_1 primif eth1
