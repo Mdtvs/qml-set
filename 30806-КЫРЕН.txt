@@ -106,7 +106,7 @@ spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
 timezone 8
-ntp set pool.ntp.org 
+ntp set pool.ntp.org
 close
 LocalityName:КЫРЕН;
 TT_other:СН;
