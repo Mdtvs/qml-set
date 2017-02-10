@@ -19,7 +19,7 @@ spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 29998
-spset WMO_REGION 30
+spset WMO_REGION 29
 spset KN01_StartTime 3004
 spset KN01EditTime 600
 spset TimeAdd "03 09 15 21"
