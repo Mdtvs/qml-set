@@ -96,7 +96,7 @@ paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.15.52"
 paramset eth1 staticip 1
 spset intRawData 600
-spset PR_Tools 1
+spset PR_Tools 0
 spset Agreement553 "10012"
 spset Agreement55  "112"
 spset Agreement59  "000"
