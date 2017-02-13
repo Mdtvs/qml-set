@@ -1,0 +1,4 @@
+paramset SurfT_CalcMeasWithCorr coeff "0.08;0.11;-0.27;-0.12;0.05;"
+paramset SurfT_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset SurfT_CalcMeasWithCorr point "-50;-25;0;25;50;"
+paramset SurfT_CalcMeasWithCorr point2 "0;0;0;0;0;"
