@@ -8,7 +8,7 @@ spset GeoPotentialLimit 1000
 spset altitude 1376
 spset Latitude 52.5
 spset Longitude 99.81
-spset pslevel 1.4
+spset pslevel -1.2
 spset sname ZbBu020
 spset MeteoDay 13
 spset EURDEP_Enable 0
