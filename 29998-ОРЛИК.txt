@@ -11,7 +11,7 @@ spset Longitude 99.81
 spset pslevel -1.2
 spset sname ZbBu020
 spset MeteoDay 13
-spset EURDEP_Enable 0
+spset EURDEP_Enable 1
 spset EURDEP_Extrem 600
 spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
