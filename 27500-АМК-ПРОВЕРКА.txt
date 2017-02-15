@@ -5,10 +5,10 @@ spset TypeAWS 0
 spset Veget "10:05-30:09"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 796
-spset Latitude 50.07
-spset Longitude 107.27
-spset pslevel 0.7
+spset altitude 971.108
+spset Latitude 53.2167
+spset Longitude 111.6833
+spset pslevel 0.87
 spset sname ZbBu0xx
 spset MeteoDay 13
 spset EURDEP_Enable 1
@@ -19,7 +19,7 @@ spset EURDEPHeading "SGRAxx RUUU"
 spset Format GMS
 spset ii 99
 spset WMO_Index 27500
-spset WMO_REGION 27
+spset WMO_REGION xx
 spset KN01_StartTime 0
 spset KN01EditTime 0
 spset TimeAdd "03 09 15 21"
@@ -44,25 +44,25 @@ paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 5
-paramset SMTP_Main SMTPSender AMK2700@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPSender AMS27500@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
 paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
 paramset SMTP_Minor server SMTP.HYDROMET.RU
-paramset SMTP_Minor primif eth1
+paramset SMTP_Minor primif netif0
 paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender station@hydromet.ru
 paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-2700
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "2700"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-27500
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "27500"
 paramset NTPClient_1 server1 "0.europe.pool.ntp.org"
 paramset NTPClient_1 server2 "1.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
-paramset NTPClient_1 primif eth1
+paramset NTPClient_1 primif netif0
 paramset NTPClient_1 retries 2
 paramset NTPClient_1 datagrams 3
 paramset NTPClient_1 secif ""
@@ -86,25 +86,21 @@ paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset eth1 autoinitinterval 5000
-paramset eth1 autoinit 1
-paramset eth1 ifpriority 1
-paramset eth1 dns2 "8.8.4.4"
-paramset eth1 dns1 "8.8.8.8"
-paramset eth1 gateway "192.168.1.1"
-paramset eth1 subnetmask "255.255.255.0"
-paramset eth1 address "192.168.1.10"
-paramset eth1 staticip 0
-paramset SMTP_RawData auth none
-paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
-paramset SMTP_RawData server csd.ulan-ude.mecom.ru
-paramset SMTP_RawData primif eth1
-paramset SMTP_RawData secif ""
-paramset SMTP_RawData retries 5
-paramset SMTP_RawData SMTPSender AMK2700@ulan-ude.mecom.ru
-paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
-paramset SMTP_RawData pipesize 3
-spset RawData 1
+paramset netif0 auth_both 0
+paramset netif0 autoinit 1
+paramset netif0 ifpriority 1
+paramset netif0 dns2 ""
+paramset netif0 dns1 "90.188.32.22"
+paramset netif0 gateway "10.0.0.1"
+paramset netif0 subnetmask "255.255.255.0"
+paramset netif0 address "10.0.0.1"
+paramset netif0 staticip 0
+paramset netif0 isp  "*99***1#"
+paramset netif0 password mts
+paramset netif0 username mts
+paramset netif0 auth any
+paramset netif0 servername ""
+paramset netif0 apn internet.mts.ru
 spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
@@ -115,8 +111,30 @@ spset Agreement59 "000"
 spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
-timezone 8
-ntp set 0.europe.pool.ntp.org
+paramset SMTP_RawData auth none
+paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
+paramset SMTP_RawData server csd.ulan-ude.mecom.ru
+paramset SMTP_RawData primif eth1
+paramset SMTP_RawData secif ""
+paramset SMTP_RawData retries 5
+paramset SMTP_RawData SMTPSender AMK27500@ulan-ude.mecom.ru
+paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset SMTP_RawData pipesize 3
+paramset netif1 address "192.168.1.2"
+paramset netif1 apn ""
+paramset netif1 auth pap
+paramset netif1 auth_both 0
+paramset netif1 dns1 ""
+paramset netif1 dns2 ""
+paramset netif1 gateway "192.168.1.1"
+paramset netif1 ifpriority 0
+paramset netif1 isp "1234567890"
+paramset netif1 password passpap3
+paramset netif1 servername ""
+paramset netif1 staticip 1
+paramset netif1 subnetmask "255.255.255.0"
+paramset netif1 username meteopap
+paramset netif1 vjcompress 0
 close
 LocalityName:ПРОВЕРКА;
 TT_other:СН;
