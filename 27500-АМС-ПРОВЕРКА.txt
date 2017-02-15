@@ -17,9 +17,9 @@ spset EURDEP_High 200
 spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRAxx RUUU"
 spset Format GMS
-spset ii 99
+spset ii xx
 spset WMO_Index 27500
-spset WMO_REGION 27
+spset WMO_REGION xx
 spset KN01_StartTime 0
 spset KN01EditTime 0
 spset TimeAdd "03 09 15 21"
