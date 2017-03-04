@@ -89,7 +89,7 @@ paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
 paramset eth1 autoinitinterval 5000
 paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
-paramset eth1 dns2 ""
+paramset eth1 dns2 "8.8.8.8"
 paramset eth1 dns1 "90.188.32.22"
 paramset eth1 gateway "192.168.1.1"
 paramset eth1 subnetmask "255.255.255.0"
