@@ -2,14 +2,14 @@
 spset a1test 0
 spset VIP 0
 spset TypeAWS 0
-spset Veget "10:05-30:09"
+spset Veget "28:04-28:09"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 971.108
-spset Latitude 53.2167
-spset Longitude 111.6833
-spset pslevel 0.87
-spset sname ZbBu041
+spset altitude 562
+spset Latitude 54.85
+spset Longitude 111.15
+spset pslevel 0.893
+spset sname ZbBuXXX
 spset MeteoDay 13
 spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
@@ -44,7 +44,7 @@ paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 5
-paramset SMTP_Main SMTPSender AMS30542@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPSender AMK30542@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
