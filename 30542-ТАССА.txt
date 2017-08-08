@@ -95,13 +95,13 @@ paramset netif0 gateway "10.0.0.1"
 paramset netif0 subnetmask "255.255.255.0"
 paramset netif0 address "10.0.0.1"
 paramset netif0 staticip 0
-paramset netif0 isp  "*99#"
-paramset netif0 password mts
-paramset netif0 username mts
+paramset netif0 isp  "*99***1#"
+paramset netif0 password gdata
+paramset netif0 username gdata
 paramset netif0 auth any
 paramset netif0 servername ""
-paramset netif0 apn internet.mts.ru
-spset intRawData 600
+paramset netif0 apn internet
+spset intRawData 150
 spset PR_Tools 1
 spset Agreement31 "112"
 spset Agreement57 "100"
