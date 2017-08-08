@@ -123,7 +123,7 @@ paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
 paramset netif1 address "192.168.1.2"
 paramset netif1 apn ""
-paramset netif1 auth pap
+paramset netif1 auth "pap"
 paramset netif1 auth_both 0
 paramset netif1 dns1 ""
 paramset netif1 dns2 ""
