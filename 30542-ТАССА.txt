@@ -96,12 +96,12 @@ paramset netif0 subnetmask "255.255.255.0"
 paramset netif0 address "10.0.0.1"
 paramset netif0 staticip 0
 paramset netif0 isp "*99#"
-paramset netif0 password gdata
-paramset netif0 username gdata
+paramset netif0 password "gdata"
+paramset netif0 username "gdata"
 paramset netif0 auth any
 paramset netif0 servername ""
-paramset netif0 apn internet
-spset intRawData 150
+paramset netif0 apn "internet"
+spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
 spset Agreement57 "100"
