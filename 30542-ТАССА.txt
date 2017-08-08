@@ -95,7 +95,7 @@ paramset netif0 gateway "10.0.0.1"
 paramset netif0 subnetmask "255.255.255.0"
 paramset netif0 address "10.0.0.1"
 paramset netif0 staticip 0
-paramset netif0 isp  "*99***1#"
+paramset netif0 isp "*99***1#"
 paramset netif0 password gdata
 paramset netif0 username gdata
 paramset netif0 auth any
