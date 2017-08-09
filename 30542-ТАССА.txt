@@ -43,7 +43,7 @@ paramset SMTP_Main srcdomain ulan-ude.mecom.ru
 paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif netif0
 paramset SMTP_Main secif ""
-paramset SMTP_Main retries 5
+paramset SMTP_Main retries 2
 paramset SMTP_Main SMTPSender AMK30542@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
@@ -117,7 +117,7 @@ paramset SMTP_RawData srcdomain ulan-ude.mecom.ru
 paramset SMTP_RawData server csd.ulan-ude.mecom.ru
 paramset SMTP_RawData primif netif0
 paramset SMTP_RawData secif ""
-paramset SMTP_RawData retries 5
+paramset SMTP_RawData retries 2
 paramset SMTP_RawData SMTPSender AMK30542@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
