@@ -101,6 +101,7 @@ paramset netif0 username "gdata"
 paramset netif0 auth any
 paramset netif0 servername ""
 paramset netif0 apn "internet"
+spset RawData 1
 spset intRawData 600
 spset PR_Tools 1
 spset Agreement31 "112"
