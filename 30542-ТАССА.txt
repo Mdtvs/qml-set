@@ -26,10 +26,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeading  "WWRA44 RUUU"
-spset WAREPHeadEnd  "WORA44 RUUU"
-spset WAREPmidOn  "VVRA44 RUUU"
-spset WAREPmidOFF  "VORA44 RUUU"
+spset WAREPHeading "WWRA44 RUUU"
+spset WAREPHeadEnd "WORA44 RUUU"
+spset WAREPmidOn "VVRA44 RUUU"
+spset WAREPmidOFF "VORA44 RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
