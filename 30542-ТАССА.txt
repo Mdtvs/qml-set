@@ -89,11 +89,11 @@ paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
 paramset netif0 auth_both 0
 paramset netif0 autoinit 0
 paramset netif0 ifpriority 1
-paramset netif0 dns2 "90.188.32.22"
-paramset netif0 dns1 "8.8.8.8"
-paramset netif0 gateway "10.0.0.1"
-paramset netif0 subnetmask "255.255.255.0"
-paramset netif0 address "10.0.0.1"
+paramset netif0 dns2 ""
+paramset netif0 dns1 ""
+paramset netif0 gateway ""
+paramset netif0 subnetmask ""
+paramset netif0 address ""
 paramset netif0 staticip 0
 paramset netif0 isp "*99#"
 paramset netif0 password "gdata"
