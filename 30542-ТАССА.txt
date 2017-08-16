@@ -97,11 +97,11 @@ paramset netif0 subnetmask ""
 paramset netif0 address ""
 paramset netif0 staticip 0
 paramset netif0 isp "*99#"
-paramset netif0 password "gdata"
-paramset netif0 username "gdata"
+paramset netif0 password "mts"
+paramset netif0 username "mts"
 paramset netif0 auth any
 paramset netif0 servername ""
-paramset netif0 apn "internet"
+paramset netif0 apn "internet.mts.ru"
 spset RawData 1
 spset intRawData 600
 spset PR_Tools 1
