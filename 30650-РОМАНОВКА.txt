@@ -9,7 +9,7 @@ spset altitude 920
 spset Latitude 53,2
 spset Longitude 112,7833
 spset pslevel 0.5
-spset sname ZbBu012
+spset sname ZbBu022
 spset MeteoDay 13
 spset EURDEP_Enable 0
 spset EURDEP_Extrem 600
