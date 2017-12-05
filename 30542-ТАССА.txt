@@ -131,12 +131,12 @@ paramset netif1 dns1 ""
 paramset netif1 dns2 ""
 paramset netif1 gateway "192.168.1.1"
 paramset netif1 ifpriority 0
-paramset netif1 isp "1234567890"
-paramset netif1 password "passpap3"
+paramset netif1 isp "89148311207"
+paramset netif1 password "1"
 paramset netif1 servername ""
 paramset netif1 staticip 1
 paramset netif1 subnetmask "255.255.255.0"
-paramset netif1 username "meteopap"
+paramset netif1 username "1"
 paramset netif1 vjcompress 0
 close
 LocalityName:ТАССА;
