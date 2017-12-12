@@ -18,7 +18,7 @@ spset EURDEP_ORIGINATOR "tel:"
 spset EURDEPHeading "SGRA99 RUUU"
 spset Format GMS
 spset ii 99
-spset WMO_Index 30542
+spset WMO_Index 30834
 spset WMO_REGION 30
 spset KN01_StartTime 0
 spset KN01EditTime 0
@@ -26,10 +26,10 @@ spset TimeAdd "03 09 15 21"
 spset TimeMain "00 06 12 18"
 spset TimeOtherAM "  "
 spset TimeOtherPM "  "
-spset WAREPHeading "WWRA44 RUUU"
-spset WAREPHeadEnd "WORA44 RUUU"
-spset WAREPmidOn "VVRA44 RUUU"
-spset WAREPmidOFF "VORA44 RUUU"
+spset WAREPHeading "WWRAXX RUUU"
+spset WAREPHeadEnd "WORAXX RUUU"
+spset WAREPmidOn "VVRAXX RUUU"
+spset WAREPmidOFF "VORAXX RUUU"
 spset Wind_Who 1
 spset PRCrit12H 50
 spset PRCrit1H 30
@@ -44,7 +44,7 @@ paramset SMTP_Main server csd.ulan-ude.mecom.ru
 paramset SMTP_Main primif netif0
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 2
-paramset SMTP_Main SMTPSender AMK30542@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Main pipesize 3
 paramset SMTP_Minor auth none
@@ -53,12 +53,12 @@ paramset SMTP_Minor server csd.ulan-ude.mecom.ru
 paramset SMTP_Minor primif netif0
 paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
-paramset SMTP_Minor SMTPSender AMK30542@ulan-ude.mecom.ru
+paramset SMTP_Minor SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_Minor SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Minor pipesize 3
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30542
-paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30542"
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30834"
 paramset NTPClient_1 server1 "0.europe.pool.ntp.org"
 paramset NTPClient_1 server2 "1.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
@@ -96,7 +96,7 @@ paramset netif0 gateway ""
 paramset netif0 subnetmask ""
 paramset netif0 address ""
 paramset netif0 staticip 0
-paramset netif0 isp "*99#"
+paramset netif0 isp "*99***1#"
 paramset netif0 password "mts"
 paramset netif0 username "mts"
 paramset netif0 auth any
@@ -120,7 +120,7 @@ paramset SMTP_RawData server csd.ulan-ude.mecom.ru
 paramset SMTP_RawData primif netif0
 paramset SMTP_RawData secif ""
 paramset SMTP_RawData retries 2
-paramset SMTP_RawData SMTPSender AMK30542@ulan-ude.mecom.ru
+paramset SMTP_RawData SMTPSender AMK30834@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
 paramset netif1 address "192.168.1.2"
@@ -139,7 +139,7 @@ paramset netif1 subnetmask "255.255.255.0"
 paramset netif1 username "1"
 paramset netif1 vjcompress 0
 close
-LocalityName:ТАССА;
+LocalityName:АМС УЛАН-УДЭ;
 TT_other:СН;
 TT_main:СМ;
 TT_add:СИ;
