@@ -5,10 +5,10 @@ spset TypeAWS 0
 spset Veget "28:04-28:09"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 0
-spset Latitude 0
-spset Longitude 0
-spset pslevel 0
+spset altitude 929
+spset Latitude 53.216667
+spset Longitude 113.283333
+spset pslevel 1
 spset sname ZbBu030
 spset MeteoDay 13
 spset EURDEP_Enable 0
