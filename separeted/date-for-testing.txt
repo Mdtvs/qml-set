@@ -1,2 +1,0 @@
-time [HH MM SS YY MM DD]
-time 

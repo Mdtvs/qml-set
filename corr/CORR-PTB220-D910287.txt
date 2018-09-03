@@ -1,4 +1,0 @@
-paramset PA_CalcMeasWithCorr coeff "0;-0.04;-0.02;-0.02;-0.04;"
-paramset PA_CalcMeasWithCorr coeff2 "-0.06;-0.01;-0.01;0.02;0;"
-paramset PA_CalcMeasWithCorr point "700;750;800;850;900;"
-paramset PA_CalcMeasWithCorr point2 "930;950;1000;1050;1100;"

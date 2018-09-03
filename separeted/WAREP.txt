@@ -1,4 +1,0 @@
-spset WAREPHeading  "WWRAXX RUUU"
-spset WAREPHeadEnd  "WORAXX RUUU"
-spset WAREPmidOn  "VVRAXX RUUU"
-spset WAREPmidOFF  "VORAXX RUUU"
