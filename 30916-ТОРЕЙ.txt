@@ -91,7 +91,7 @@ paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
 paramset netif0 auth_both 0
-paramset netif0 autoinit 1
+paramset netif0 autoinit 0
 paramset netif0 ifpriority 1
 paramset netif0 dns2 ""
 paramset netif0 dns1 ""
