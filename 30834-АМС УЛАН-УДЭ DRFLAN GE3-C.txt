@@ -19,8 +19,8 @@ spset Cold 1
 spset SMTPadd 0
 spset BushDepth 10
 spset modemCtrl ON
-spset HeatOn -1
-spset HeatOff 5
+spset HeatOn -30
+spset HeatOff -25
 spset IntTempSelect INT_PT
 spset resetInterval 1
 spset SnowHight 270
@@ -162,6 +162,3 @@ paramset netif0 username mts
 paramset netif0 auth any
 paramset netif0 servername  ""
 paramset netif0 apn internet.mts.ru
-
-
-
