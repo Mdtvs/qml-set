@@ -15,29 +15,38 @@ spset CloudControl ON
 spset TGControl ON
 spset BushTempControl ON
 spset Rain PLUVIO
-spset Cold 0
+spset Cold 1
 spset SMTPadd 0
 spset BushDepth 10
-spset modemCtrl OFF
-spset HeatOn -38
-spset HeatOff -33
+spset modemCtrl ON
+spset HeatOn -1
+spset HeatOff 5
 spset IntTempSelect INT_PT
-spset resetInterval 3
+spset resetInterval 1
 spset SnowHight 270
 spset FTP 0
-spset pslevel 0
+spset pslevel 0.893
 spset rep_interval 1
 spset messagePeriod 1
-spset altitude 0
+spset altitude 600.576
+
+
 spset SnowControl ON
 spset GydraControl ON
 spset IRTControl OFF
 spset debugport COM0
 spset PressureSensor BARO1
 spset sname StationName
-spset WMO_Index 27500
-spset Longitude 0
-spset Latitude 0
+spset WMO_Index 30834
+
+
+
+
+
+
+
+spset Longitude 105.7546617
+spset Latitude 51.809645
 spset iw 1
 spset WindWho 1
 spset a1test 0
@@ -88,8 +97,8 @@ paramset FTP_Main pass "12345"
 paramset FTP_Main pipe /Ext/FTP
 paramset FTP_Main pass 7
 
-paramset NTP_Main server1 "0.pool.ntp.org"
-paramset NTP_Main server2 "2.pool.ntp.org"
+paramset NTP_Main server1 "csd.ulan-ude.mecom.ru"
+paramset NTP_Main server2 "asia.pool.ntp.org"
 paramset NTP_Main timeout 30000
 paramset NTP_Main timetol 5000
 paramset NTP_Main primif eth1
@@ -124,7 +133,7 @@ paramset SR_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset SR_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset SR_CalcMeasWithCorr point "0;0;0;0;0;"
 paramset SR_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset SR_CalcMeasWithCorr sensitivity 5 		//чувствительность пиранометра
+paramset SR_CalcMeasWithCorr sensitivity 5
 
 paramset TG_Bush_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset TG_Bush_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
@@ -142,3 +151,9 @@ paramset WAREPWind VERY_STRONG_THRE 25
 paramset WAREPWind HP_GAIN_STEP 5
 paramset WAREPWind VERY_STRONG_THRE 20
 paramset WAREPWind HURRICANE_THRE 33
+
+
+
+spset localzone 3
+paramset NTP_Main server1 "csd.ulan-ude.mecom.ru"
+paramset NTP_Main server2 "asia.pool.ntp.org"

@@ -1,0 +1,9 @@
+﻿
+spset localzone 3
+spset modemCtrl "ON"
+spset resetInterval 1
+spset Cold 1
+spset HeatOff -20
+spset HeatOn -25
+paramset NTP_Main server1 "csd.ulan-ude.mecom.ru"
+paramset NTP_Main server2 "asia.pool.ntp.org"
