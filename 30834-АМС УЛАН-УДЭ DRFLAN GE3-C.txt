@@ -1,7 +1,7 @@
-spset WAREPmidON VVRS90 RUPZ
-spset WAREPmidOFF VORS90 RUPZ
-spset WAREPHeading WWRS90 RUPZ
-spset WAREPHeadEnd WORS90 RUPZ
+spset WAREPmidON VVRSXX RUPZ
+spset WAREPmidOFF VORSXX RUPZ
+spset WAREPHeading WWRSXX RUPZ
+spset WAREPHeadEnd WORSXX RUPZ
 spset WAREPIndex 123
 spset WAREP 0
 spset WindHight 10
@@ -30,7 +30,6 @@ spset rep_interval 1
 spset messagePeriod 1
 spset altitude 600.576
 
-
 spset SnowControl ON
 spset GydraControl ON
 spset IRTControl OFF
@@ -54,13 +53,13 @@ spset WScontrol 10
 spset WDcorr 0
 
 paramset SMTP_Main auth plain
-paramset SMTP_Main srcdomain domain.ru
-paramset SMTP_Main server server.ru
-paramset SMTP_Main primif eth1
+paramset SMTP_Main srcdomain ulan-ude.mecom.ru
+paramset SMTP_Main server csd.ulan-ude.mecom.ru
+paramset SMTP_Main primif netif0
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 2
-paramset SMTP_Main SMTPSender1 sender@domain.ru
-paramset SMTP_Main SMTPRecep1 recep@domain.ru
+paramset SMTP_Main SMTPSender1 AMK30834@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 
 paramset SMTP_Minor auth plain
 paramset SMTP_Minor srcdomain domain.ru
@@ -80,9 +79,9 @@ paramset SMTP_Secondary retries 2
 paramset SMTP_Secondary SMTPSender3 sender@domain.ru
 paramset SMTP_Secondary SMTPRecep3 recep@domain.ru
 
-hostset "server.ru:smtp:port" 25
-hostset "server.ru:smtp:username" user
-hostset "server.ru:smtp:password" "12345"
+hostset "csd.ulan-ude.mecom.ru:smtp:port" 7100
+hostset "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
+hostset "csd.ulan-ude.mecom.ru:smtp:password" "30834"
 hostset "server.ru:ftp:port" 25
 hostset "server.ru:ftp:username" user
 hostset "server.ru:ftp:password" "12345"
@@ -152,8 +151,4 @@ paramset WAREPWind HP_GAIN_STEP 5
 paramset WAREPWind VERY_STRONG_THRE 20
 paramset WAREPWind HURRICANE_THRE 33
 
-
-
 spset localzone 3
-paramset NTP_Main server1 "csd.ulan-ude.mecom.ru"
-paramset NTP_Main server2 "asia.pool.ntp.org"
