@@ -38,12 +38,6 @@ spset PressureSensor BARO1
 spset sname StationName
 spset WMO_Index 30834
 
-
-
-
-
-
-
 spset Longitude 105.7546617
 spset Latitude 51.809645
 spset iw 1
