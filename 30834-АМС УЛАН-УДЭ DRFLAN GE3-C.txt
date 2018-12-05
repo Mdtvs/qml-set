@@ -41,7 +41,7 @@ paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Minor auth plain
 paramset SMTP_Minor srcdomain domain.ru
 paramset SMTP_Minor server "1.1.1.1"
-paramset SMTP_Minor primif eth1
+paramset SMTP_Minor primif netif0
 paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
 paramset SMTP_Minor SMTPSender sender@domain.ru
@@ -50,7 +50,7 @@ paramset SMTP_Minor SMTPRecep1 recep@domain.ru
 paramset SMTP_Secondary auth plain
 paramset SMTP_Secondary srcdomain domain.ru
 paramset SMTP_Secondary server "1.1.1.1"
-paramset SMTP_Secondary primif eth1
+paramset SMTP_Secondary primif netif0
 paramset SMTP_Secondary secif ""
 paramset SMTP_Secondary retries 2
 paramset SMTP_Secondary SMTPSender sender@domain.ru
@@ -65,7 +65,7 @@ hostset "server.ru:ftp:password" "12345"
 
 paramset FTP_Main port 7300
 paramset FTP_Main server server.ru
-paramset FTP_Main primif eth1
+paramset FTP_Main primif netif0
 paramset FTP_Main secif ""
 paramset FTP_Main retries 2
 paramset FTP_Main user "username"
