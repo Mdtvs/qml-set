@@ -1,0 +1,147 @@
+spset WAREPmidON VVRS90 RUPZ
+spset WAREPmidOFF VORS90 RUPZ
+spset WAREPHeading WWRS90 RUPZ
+spset WAREPHeadEnd WORS90 RUPZ
+spset WAREPIndex 123
+spset WAREP 0
+spset WindHight 10
+spset SMTP 1
+spset GeoPotentialLimit 1000
+spset alternativescript /Ext/alter/MN0106.adc
+spset Cold 1
+spset SMTPadd 0
+spset modemCtrl ON
+spset modemMode NORMAL
+spset Pluvio 1
+spset HeatOn -38
+spset HeatOff -33
+spset IntTempSelect INT_PT
+spset resetInterval 3
+spset FTP 0
+spset pslevel 0.893
+spset rep_interval 3
+spset messagePeriod 1
+spset altitude 600.576
+spset debugport COM0
+spset PressureSensor BARO1
+spset sname AMSUU
+spset WMO_Index 30834
+spset Longitude 105.7546617
+spset Latitude 51.809645
+
+paramset SMTP_Main auth none
+paramset SMTP_Main srcdomain ulan-ude.mecom.ru
+paramset SMTP_Main server csd.ulan-ude.mecom.ru
+paramset SMTP_Main primif netif0
+paramset SMTP_Main secif ""
+paramset SMTP_Main retries 2
+paramset SMTP_Main SMTPSender1 AMK30834@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
+
+paramset SMTP_Minor auth plain
+paramset SMTP_Minor srcdomain domain.ru
+paramset SMTP_Minor server "1.1.1.1"
+paramset SMTP_Minor primif eth1
+paramset SMTP_Minor secif ""
+paramset SMTP_Minor retries 2
+paramset SMTP_Minor SMTPSender sender@domain.ru
+paramset SMTP_Minor SMTPRecep1 recep@domain.ru
+
+paramset SMTP_Secondary auth plain
+paramset SMTP_Secondary srcdomain domain.ru
+paramset SMTP_Secondary server "1.1.1.1"
+paramset SMTP_Secondary primif eth1
+paramset SMTP_Secondary secif ""
+paramset SMTP_Secondary retries 2
+paramset SMTP_Secondary SMTPSender sender@domain.ru
+paramset SMTP_Secondary SMTPRecep1 recep@domain.ru
+
+hostset "csd.ulan-ude.mecom.ru:smtp:port" 7100
+hostset "csd.ulan-ude.mecom.ru:smtp:username" AMK-30834
+hostset "csd.ulan-ude.mecom.ru:smtp:password" "30834"
+hostset "server.ru:ftp:port" 25
+hostset "server.ru:ftp:username" user
+hostset "server.ru:ftp:password" "12345"
+
+paramset FTP_Main port 7300
+paramset FTP_Main server server.ru
+paramset FTP_Main primif eth1
+paramset FTP_Main secif ""
+paramset FTP_Main retries 2
+paramset FTP_Main user "username"
+paramset FTP_Main pass "12345"
+paramset FTP_Main pipe /Ext/FTP
+paramset FTP_Main pass 7
+
+paramset NTP_Main server1 "csd.ulan-ude.mecom.ru"
+paramset NTP_Main server2 "asia.pool.ntp.org"
+paramset NTP_Main timeout 30000
+paramset NTP_Main timetol 5000
+paramset NTP_Main primif netif0
+paramset NTP_Main retries 2
+paramset NTP_Main datagrams 3
+paramset NTP_Main secif ""
+
+
+paramset netif0 auth_both 0
+paramset netif0 autoinit 0
+paramset netif0 ifpriority 1
+paramset netif0 dns2 ""
+paramset netif0 dns1 ""
+paramset netif0 gateway "10.0.0.1"
+paramset netif0 subnetmask "255.255.255.0"
+paramset netif0 address "10.0.0.2"
+paramset netif0 staticip 0
+paramset netif0 isp "*99***1#"
+paramset netif0 password mts
+paramset netif0 username mts
+paramset netif0 auth any
+paramset netif0 servername  ""
+paramset netif0 apn internet.mts.ru
+
+paramset modemGPRS_data pin "0000"
+paramset modemGPRS_data smscenter "+79147991000"
+
+paramset SMS greeting "Hello"
+paramset SMS smsauth "*"
+paramset SMS ifautoclose 300
+
+paramset VCOM1 host1 "92.124.198.75"
+paramset VCOM1 port 101595
+paramset VCOM1 netif1 "netif0"
+paramset VCOM1 retry1 1
+paramset VCOM1 tryconnectdelay 120000
+
+paramset RH_MeasWithCorr coeff "0;0;0;0;0;"
+paramset RH_MeasWithCorr coeff2 "0;0;0;0;0;"
+paramset RH_MeasWithCorr point "0;0;0;0;0;"
+paramset RH_MeasWithCorr point2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset PA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
+paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+
+paramset WAREPWind STRONG_THRE 12
+paramset WAREPWind STRONG_GAIN_THRE 15
+paramset WAREPWind STRONG_GAIN_STEP 5
+paramset WAREPWind VERY_STRONG_THRE 25
+paramset WAREPWind HP_GAIN_STEP 5
+paramset WAREPWind VERY_STRONG_THRE 20
+paramset WAREPWind HURRICANE_THRE 33
+
+spset localzone 3
+
+paramset WACControl ID K
+paramset WACControl MODE MANUAL
+paramset WACControl ACT 1
+paramset WACControl TOS 4
+paramset WACControl THYS 2
+
+paramset Pluvio tPluvio 300
+
+close
+
