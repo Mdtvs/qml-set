@@ -115,6 +115,7 @@ spset Agreement59 "000"
 spset localzone 3
 spset lim_911ff 9.5
 spset lim_910ff 9.5
+spset PRConserv "01:10-01:04"
 timezone 8
 ntp set 0.europe.pool.ntp.org
 close
