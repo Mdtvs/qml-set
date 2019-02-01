@@ -105,6 +105,7 @@ paramset netif0 username mts
 paramset netif0 auth any
 paramset netif0 servername  ""
 paramset netif0 apn internet.mts.ru
+spset PRConserv "01:10-01:04"
 close
 LocalityName:“Œ–≈…;
 TT_other:—Õ;
