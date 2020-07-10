@@ -39,27 +39,27 @@ spset Wind_Lim_Gust 25
 spset CC_Tools 0
 spset VV_Tools 0
 paramset SMTP_Main auth none
-paramset SMTP_Main srcdomain SMTP.HYDROMET.RU
-paramset SMTP_Main server SMTP.HYDROMET.RU
+paramset SMTP_Main srcdomain 10.9.11.30
+paramset SMTP_Main server 10.9.11.30
 paramset SMTP_Main primif eth1
 paramset SMTP_Main secif ""
 paramset SMTP_Main retries 2
-paramset SMTP_Main SMTPSender station@hydromet.ru
-paramset SMTP_Main SMTPRecep1 csd@unimas.ru
+paramset SMTP_Main SMTPSender AMK30823@ulan-ude.mecom.ru
+paramset SMTP_Main SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_Minor auth none
-paramset SMTP_Minor srcdomain SMTP.HYDROMET.RU
-paramset SMTP_Minor server SMTP.HYDROMET.RU
+paramset SMTP_Minor srcdomain 10.9.11.30
+paramset SMTP_Minor server 10.9.11.30
 paramset SMTP_Minor primif eth1
 paramset SMTP_Minor secif ""
 paramset SMTP_Minor retries 2
-paramset SMTP_Minor SMTPSender station@hydromet.ru
-paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
-paramset hosts "c71csd-grmc.dyndns.org:smtp:port" 2025
-paramset hosts "c71csd-grmc.dyndns.org:smtp:username" name@server.ru
-paramset hosts "c71csd-grmc.dyndns.org:smtp:password" sacredWorld
+paramset SMTP_Minor SMTPSender AMK30823@ulan-ude.mecom.ru
+paramset SMTP_Minor SMTPRecep1 stream1@ulan-ude.mecom.ru
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30823
+paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" 30823
 paramset hosts "c71csd-grmc.dyndns.org:smtp:authid" name@server.ru
-paramset NTPClient_1 server1 "62.117.76.142"
-paramset NTPClient_1 server2 "62.117.76.139"
+paramset NTPClient_1 server1 "10.9.11.30"
+paramset NTPClient_1 server2 "10.9.11.32"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
 paramset NTPClient_1 primif eth1
@@ -91,9 +91,9 @@ paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
 paramset eth1 dns2 ""
 paramset eth1 dns1 ""
-paramset eth1 gateway "10.9.16.30"
-paramset eth1 subnetmask "255.255.255.248"
-paramset eth1 address "10.9.16.28"
+paramset eth1 gateway "10.9.15.99"
+paramset eth1 subnetmask "255.255.255.0"
+paramset eth1 address "10.9.15.126"
 paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 0
