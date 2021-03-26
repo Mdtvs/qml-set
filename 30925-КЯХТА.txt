@@ -58,7 +58,7 @@ paramset SMTP_Minor SMTPRecep1 csd@unimas.ru
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:port" 7100
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:username" AMK-30925
 paramset hosts "csd.ulan-ude.mecom.ru:smtp:password" "30925"
-paramset NTPClient_1 server1 "pool.ntp.org"
+paramset NTPClient_1 server1 "csd.ulan-ude.mecom.ru"
 paramset NTPClient_1 server2 "0.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
@@ -86,15 +86,6 @@ paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset eth1 autoinitinterval 5000
-paramset eth1 autoinit 1
-paramset eth1 ifpriority 1
-paramset eth1 dns2 ""
-paramset eth1 dns1 "90.188.32.22"
-paramset eth1 gateway "10.9.15.102"
-paramset eth1 subnetmask "255.255.255.248"
-paramset eth1 address "10.9.15.100"
-paramset eth1 staticip 1
 spset intRawData 600
 spset PR_Tools 0
 spset Agreement31 "112"
