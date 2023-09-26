@@ -63,10 +63,10 @@ paramset NTPClient_1 server1 "csd.ulan-ude.mecom.ru"
 paramset NTPClient_1 server2 "1.europe.pool.ntp.org"
 paramset NTPClient_1 timeout 30000
 paramset NTPClient_1 timetol 5000
-paramset NTPClient_1 primif netif0
+paramset NTPClient_1 primif "netif0"
 paramset NTPClient_1 retries 2
 paramset NTPClient_1 datagrams 3
-paramset NTPClient_1 secif ""
+paramset NTPClient_1 secif "netif0"
 paramset SurfTBush_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset SurfTBush_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset SurfTBush_CalcMeasWithCorr point "0;0;0;0;0;"
