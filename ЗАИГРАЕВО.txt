@@ -5,7 +5,7 @@ spset TypeAWS 0
 spset Veget "10:03-10:10"
 spset iw 1
 spset GeoPotentialLimit 1000
-spset altitude 929
+spset altitude XXX
 spset Latitude XX.XX
 spset Longitude XX.XX
 spset pslevel 1
