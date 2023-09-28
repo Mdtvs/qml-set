@@ -1,5 +1,4 @@
-"--------------  —≈¬≈–Œ¡¿… ¿À‹—   --------------"
-open
+Ôªøopen
 spset a1test 0
 spset VIP 0
 spset TypeAWS 1
@@ -100,12 +99,12 @@ paramset eth1 subnetmask "255.255.255.248"
 paramset eth1 address "10.9.15.188"
 paramset eth1 staticip 1
 close
-LocalityName:—≈¬≈–Œ¡¿… ¿À‹— ;
-TT_other:—Õ;
-TT_main:—Ã;
-TT_add:—»;
-AA:–¿;
-CCCC:«¡”ƒ;
-KN19_dec:«÷–¿96 «¡”ƒ;
-KN19_mon:÷—–¿96 «¡”ƒ;
-KN24_Heading:«÷–¿96 «¡”ƒ;
+LocalityName:–°–ï–í–ï–†–û–ë–ê–ô–ö–ê–õ–¨–°–ö;
+TT_other:–°–ù;
+TT_main:–°–ú;
+TT_add:–°–ò;
+AA:–†–ê;
+CCCC:–ó–ë–£–î;
+KN19_dec:–ó–¶–†–ê96 –ó–ë–£–î;
+KN19_mon:–¶–°–†–ê96 –ó–ë–£–î;
+KN24_Heading:–ó–¶–†–ê96 –ó–ë–£–î;
