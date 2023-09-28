@@ -139,7 +139,7 @@ paramset netif1 subnetmask "255.255.255.0"
 paramset netif1 username "meteopap"
 paramset netif1 vjcompress 0
 close
-LocalityName:ЗАИГРАЕВО;
+LocalityName:СЕВЕРОБАЙКАЛЬСК;
 TT_other:СН;
 TT_main:СМ;
 TT_add:СИ;
