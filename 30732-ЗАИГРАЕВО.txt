@@ -87,6 +87,15 @@ paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
 paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
+paramset eth1 autoinitinterval 5000
+paramset eth1 autoinit 1
+paramset eth1 ifpriority 1
+paramset eth1 dns2 ""
+paramset eth1 dns1 "8.8.8.8"
+paramset eth1 gateway "8.8.4.4"
+paramset eth1 subnetmask "255.255.255.0"
+paramset eth1 address "192.168.1.1"
+paramset eth1 staticip 1
 paramset netif0 auth_both 0
 paramset netif0 autoinit 0
 paramset netif0 ifpriority 1
