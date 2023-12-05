@@ -67,26 +67,6 @@ paramset NTPClient_1 primif netif0
 paramset NTPClient_1 retries 2
 paramset NTPClient_1 datagrams 3
 paramset NTPClient_1 secif ""
-paramset SurfTBush_CalcMeasWithCorr coeff "0;0;0;0;0;"
-paramset SurfTBush_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
-paramset SurfTBush_CalcMeasWithCorr point "0;0;0;0;0;"
-paramset SurfTBush_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset SurfT_CalcMeasWithCorr coeff "0;0;0;0;0;"
-paramset SurfT_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
-paramset SurfT_CalcMeasWithCorr point "0;0;0;0;0;"
-paramset SurfT_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset RH_MeasWithCorr coeff "0;0;0;0;0;"
-paramset RH_MeasWithCorr coeff2 "0;0;0;0;0;"
-paramset RH_MeasWithCorr point "0;0;0;0;0;"
-paramset RH_MeasWithCorr point2 "0;0;0;0;0;"
-paramset PA_CalcMeasWithCorr coeff "0;0;0;0;0;"
-paramset PA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
-paramset PA_CalcMeasWithCorr point "0;0;0;0;0;"
-paramset PA_CalcMeasWithCorr point2 "0;0;0;0;0;"
-paramset TA_CalcMeasWithCorr coeff "0;0;0;0;0;"
-paramset TA_CalcMeasWithCorr coeff2 "0;0;0;0;0;"
-paramset TA_CalcMeasWithCorr point "0;0;0;0;0;"
-paramset TA_CalcMeasWithCorr point2 "0;0;0;0;0;"
 paramset eth1 autoinitinterval 5000
 paramset eth1 autoinit 1
 paramset eth1 ifpriority 1
@@ -132,21 +112,11 @@ paramset SMTP_RawData retries 2
 paramset SMTP_RawData SMTPSender AMK30732@ulan-ude.mecom.ru
 paramset SMTP_RawData SMTPRecep1 stream1@ulan-ude.mecom.ru
 paramset SMTP_RawData pipesize 3
-paramset netif1 address "192.168.1.2"
-paramset netif1 apn ""
-paramset netif1 auth "pap"
-paramset netif1 auth_both 0
-paramset netif1 dns1 ""
-paramset netif1 dns2 ""
-paramset netif1 gateway "192.168.1.1"
-paramset netif1 ifpriority 0
-paramset netif1 isp "89148311207"
-paramset netif1 password "passpap"
-paramset netif1 servername ""
-paramset netif1 staticip 1
-paramset netif1 subnetmask "255.255.255.0"
-paramset netif1 username "meteopap"
-paramset netif1 vjcompress 0
+paramsetclear netif1
+paramsetclear SurfTBush_CalcMeasWithCorr
+paramsetclear SurfT_CalcMeasWithCorr
+paramsetclear RH_MeasWithCorr coeff
+paramsetclear PA_CalcMeasWithCorr coeff
 close
 LocalityName:ЗАИГРАЕВО;
 TT_other:СН;
